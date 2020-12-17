@@ -1,19 +1,18 @@
-/*styleSheet.css
+/*styleSheet_Patryck.css
  *@Patryck Brenner
- * 24th Nov 2020
+ * 17th Dec 2020
  */
 
-  * {
+ * {
 	font-family: URW Chancery L, cursive; /* got this font-family on: https://www.w3.org/Style/Examples/007/fonts.en.html */
+	text-decoration: none;
     text-align: center;
+
 }
 
 body {
 	background-color: #f5f1ee;
-}
- 
-section {
-	width: 90%;
+	width: 100%;
 	height: auto;
 	margin: auto;
 	max-width: 1800px;
@@ -21,11 +20,12 @@ section {
 }
 
 
+
 /*------------------Header------------------*/
 
 #header{
-	margin: 0;
-    padding: 2%;
+	margin: auto;
+    padding: 1%;
     width: 100%;
 }
 
@@ -34,8 +34,8 @@ section {
 /*------------------Navegation menu------------------*/
 
 .topnav {
+	overflow: hidden;
 	width: 100%;
-	padding: 1%;
 	background-color: #069;
 	border: 1px solid #ccc;
 	
@@ -47,74 +47,52 @@ section {
 
 .topnav li {
 	list-style: none;
-	padding: 1%;
-		
+	padding: 2%;
+	width: 16.66%;	
+	position: relative;
 }
 
-.topnav li a {
-	display: block;
-	padding: 0 15px 0 10px;
+.topnav a {
+	text-align: center;
+	float: left;
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
-	border-right: 1px solid #ccc;
-	position: relative;
-	transition: 1s;
-		
+	transition: 1s;	
 }
 
-.topnav li:Hover { 
+.topnav a:Hover { 
 	transform: scale(1.2);
 
 }
 
 #page_active {
-	transform: scale(1.5);
-}
-
-/*------------------ Gallery ------------------*/
-
-
-.gallery img {
-	padding: 1%;
-	transition: 0.5s;
-	box-shadow: 0px 0px 3px 0px #888888;
-}
-
-.gallery img:hover {
-	transform: scale(1.2);
-	
+	transform: scale(1.4);
 }
 
 
 
-/*------------------ MAIN CONTENT STARTS HERE ------------------*/
+/*------------------ This is for the whole page  ------------------*/
 
 .container{
 	width:100%;
 	margin: auto;
-	margin-top:8px;
 	padding: 1%;
 	font-size:18px;    
     line-height:16px;
+	overflow: auto;
 }
 
-/*------------------ Header for the page introduction ------------------*/
-.container h2 {
+/*--- Gives to the main header of each page an uppercase look and justify all the paragraphs in the page ---*/
+
+h2 {
 	padding-bottom: 1%;
 	text-transform: uppercase;
 	border-bottom: 2px solid;
 }
 
-/*------------------ Giver the rounded look to the fieldset ------------------*/
-
-.container fieldset {
-	margin:10px;
-	padding:20px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
+p {
+    text-align: justify;
 }
 
 
@@ -132,7 +110,7 @@ padding-bottom:7px;
 
 
 /*------------------Display the total price box in green when the function totalPrice() is called------------------*/
-.container div#totalPrice
+#totalPrice
 {
 	margin-top: 7px;
     padding:12px;
@@ -140,26 +118,60 @@ padding-bottom:7px;
     background-color:green;
 }
 
+/*------------------ Gallery ------------------*/
+
+.gallery {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.gallery img {
+	padding: 1%;
+	transition: 0.5s;
+	box-shadow: 0px 0px 3px 0px #888888;
+}
+
+.gallery img:hover {
+	transform: scale(1.2);
+}
+
+#link1{
+	position: relative;
+	left: 400px;
+	padding-top: 1em;
+}
+
+.side{
+	flex: 33.33%;
+	padding: 20px;
+}
+
 /*------------------ Footer ------------------*/
 
-footer {
+.footer {
     background-color: #f5f1ee;
 	color: black;
-    padding: 8px 0;
+    padding: 0;
 	text-align: center;
-    margin-top: 10px;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
+.footer p{
+	font-size: 1em;
+	text-align: center;
+}
+
+
 
 /*------------------ Form ------------------*/
 
 #contact_details{
+	margin: 5% auto 0;
 	display: inline-block;
-	text-align: center;
-	
+	text-align: center;	
 	
 }
 
@@ -176,7 +188,17 @@ legend{
     padding-bottom:10px;
 }
 
-/*------------------ Add more stuff here, we still need to do the @media stuff ------------------*/
+/*------------------ Add more things from here, we still need to do the @media stuff ------------------*/
+
+@media screen and (max-width: 500px) {
+  .topnav a {
+	overflow: hidden;
+    float: left;
+	position: relative;
+    display: block;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
 
 
 

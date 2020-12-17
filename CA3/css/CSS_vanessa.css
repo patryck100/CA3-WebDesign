@@ -1,0 +1,96 @@
+body{
+	font-family:Trebuchet MS; /* https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ */
+	text-align: justify;
+}
+
+h1{
+	font-family: Trebuchet MS;
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 50px;
+	text-align: center;
+}
+
+h2{
+padding: 0 0 20px 50px;
+
+}
+
+#text1 {
+  padding: 0 0 15px 15px;
+  font-size: 15px;
+  }
+
+
+footer {
+	background-color: #00993395;
+	width: 100%;
+	color: black;
+	height: 90px;
+	padding-top: 35px;
+	
+}
+
+.images{
+	display: flex;
+}
+
+.images:hover{
+	left: 50px;
+}
+
+
+#connect{
+	float: right;
+	padding-right: 50px;
+}
+
+#copyright{
+	float: left;
+	padding-left: 50px;
+}
+
+#headervan{
+	padding: 1px;
+	background-color: #00993395;
+    width: 100%;
+	height:200px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 80px;
+	font-weight: bold;
+	font-family:ink free;  /* https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ */
+	padding: 50px 0;
+  }
+
+#navigvan {
+	width: 100%;
+	float: left;
+	border-top: solid 2px #ffffff;
+	background-color: #009933;
+	padding:  0 15px 0 15px;
+}
+
+#navigvan ul {
+	list-style-type: none;
+}
+
+#navigvan li {
+	float: left; 
+		
+}
+
+#navigvan li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	border-right: 1px solid #ffffff;
+}
+
+#navigvan li a:hover { 
+	color: black;
+}
+

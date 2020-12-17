@@ -1,7 +1,9 @@
 <!--
- *Adventure.html
+ *Index.html
  *@Patryck Brenner
- * 15th Dec 2020
+ *@Vanessa Lyra
+ *@Christianne Peña
+ 
  -->
  
 
@@ -13,14 +15,12 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title> Adventures in Ireland </title>
+	<title> What to do in Ireland </title>
 	
 	<script src="js/js_external.js" type="text/javascript"></script>
 	<script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	
 	<!-- <link href="styleSheet_Patryck.css" rel="stylesheet" type="text/css" /> This is Patryck's CSS-->	
-	
 	<link href="css/styleSheet.css" rel="stylesheet" type="text/css" />
 	<link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
 	
@@ -32,7 +32,6 @@
 	<script>
 	$(function() {  $("#popup").modal('show'); }); /*https://www.iamrohit.in/how-to-open-popup-window-on-page-load-using-bootstrap-and-jquery/*/
 	</script>
-	
 
 </head>
 
@@ -45,92 +44,80 @@
 		
 		<div class="topnav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a id="page_active" href="Adventure.html">Adventure</a></li>
+				<li><a id="page_active" href="index.html">Home</a></li>
+				<li><a href="Adventure.html">Adventure</a></li>
 				<li><a href="Historical.html">Historical</a></li>
 				<li><a href="GameOfThrones.html">Game of Thrones</a></li>
 				<li><a href="index.html#about_us">About us</a></li>
 				<li><a href="#contact_us">Contact us</a></li>
 			</ul>
 		</div>
-
-		 <div id="popup" class="modal fade" role="dialog">
+		
+		<div id="popup" class="modal fade" role="dialog">
 			<div class="modal-dialog">
+			<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
 						<h4 class="modal-title">Welcome!!!</h4>
 					</div>
 					<div class="modal-body">
-						<p> Great choice!! Get ready for an amazing Adventure!! </p>
+					<p>Are you ready to find the perfect trip ever?</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
-		</div> <!-- End of div "popup", responsible for the JQuery question witch pops up onload of the page -->
+		</div>
 	
 	
-					
 		<div id="content">
 			<fieldset>
-					<h2> Are you an Adventurer?</h2>
-					<p>Ireland is known abroad for its green breath-taking landscapes. Hiking in Ireland is literally <br>
-					like exploring a fairy tale book though you see it with your own eyes.</p>
+					<h2><center> Looking for fun?<center></h2>
+					<p> Looking for a day to remember for years to come? Are you visiting Ireland and want to seize every moment of your stay?
+					Are you tired of the hassle of planning activities?</p>
+					<p>Leave it to us!</p>
+					<p>In Make My Day we offer a wide variety of fun activities for all tastes and ages.<br>
+					From visiting the outstanding sets of the acclaimed TV series Game of Thrones, discovering all the Irish culture through their rich and beautiful museums,<br>
+					kayaking in the friendly waters of the Liffey River; <br>
+					or maybe you are just fancying a drink and a good party in the world-famous Irish pubs, we got you cover
+					with these and many more experiences.<br>
+					The only thing you got to do is choose the activity, the size of your group and we will do the rest, nice and easy.</p>
+					<p>Why to choose us?
+					<br> Make my Day is not the traditional company, we are focused on selling experiences<br>
+					Our company is not just focused on people visitng the Emerald Island, but also for residents who are looking to have some extra fun or enjoy  different experiences</p>
 					
-					<p>For you who is tired of seeing the world through the windows, who wants a real ancient fairy tale experience,<br>
-					something to be memorable. Hiking in Glendalough is one of the best experiences you can ever ask for! There you will<br>
-					find countless inspiring hiking trails and we are sure you will have memorable experiences.</p>
-					
-					<p>Glendalough is the English translation of the Irish word <i>"Gleann Dá Loch"</i> which means "The Valley of the<br>
-					Two Lakes". If summed, the upper and lower lakes have in total 9 hiking trails with its level of difficulty since <br>
-					easy up to advanced. The valley is around 1 hour drive from Dublin city centre which makes it the perfect option <br>
-					for you who lives in Dublin or is just visiting.</p>
-					<p>As everyone knows, images worth more than thousands words! For this reason, down below you are going to watch one of our breath-taking<br>
-					Adventures and see some images by your own eyes. Enjoy!</p>
-
-
-				<!--reference for the text above: https://liveadventuretravel.com/walks-in-glendalough/ -->
-
+					<p> Get ready to enjoy a day that you will treasure for life.</p>
 							
 				<div class="gallery">
-					<center><video width="70%" height="40%" controls>
-					<source src="video/adventure.mp4" type="video/mp4">
-					<source src="video/adventure.ogg" type="video/ogg">
-					<source src="video/adventure.webm" type="video/webm">
-					<source src="video/adventure.mov" type="video/mov">
-					<!-- Multiple video formats are being included in order to be supported by a wider variety of browsers -->
-					<p> Sorry, your browser does not support the video element.</p> 
-					<!-- The text above is to be displayed to the user in case the video does not work -->
-					</video></center>
-					
-					<fieldset>
-						
-							
-							<a href="images/Glendalough1.jpeg" data-lightbox="gallery2"><img src="images/Glendalough1.jpeg" alt = "This is an image" width="300" height="300"></a>
-							<a href="images/Glendalough3.jpg" data-lightbox="gallery2"><img src="images/Glendalough3.jpg" alt = "This is an image" width="300" height="300"><a/>
-							<a href="images/Glendalough5.jpeg" data-lightbox="gallery2"><img src="images/Glendalough5.jpeg" alt = "This is an image" width="300" height="300"></a>
-							<a href="images/Glendalough4.jpg" data-lightbox="gallery2"><img src="images/Glendalough4.jpg" alt = "This is an image" width="300" height="300"></a>
-						
-							
-							
-					</fieldset>
-				</div>	<!-- End of Gallery -->
-					
+					<center>
+					<a href="images/DarkHedges.jpg" data-lightbox="gallery1"><img src="images/DarkHedges.jpg" alt = "This is an image" width="300" height="300"></a>
+					<a href="images/monolito.jpg" data-lightbox="gallery1"><img src="images/monolito.jpg" alt = "This is an image" width="300" height="300"></a>
+					<a href="images/kayak.jpg" data-lightbox="gallery1"><img src="images/kayak.jpg" alt = "This is an image" width="300" height="300"></a> 
+					</center>
+				</div>	
 			</fieldset>	
 			
+			<div id="about_us">
+				<fieldset>
+					<legend> About Us</legend>
+					<p>The company started in 2020 with tree college friends who completely passioned about travelling who knew exactly how hard it is to plan a trip from the scratch 
+					specially with a tight schedule combining professional and student life. The idea of MakeMyDay is to offer interesting places, well planned trips to avoid those 
+					unforeseen problems that are constantly present travel wise and, above all, affordable.
+					Our philosophy is to offer excellent customer service guaranteed by an experienced and specialized team. We are divided in tree departments: Adventure, Historical and Game 
+					of Thrones sets.</p>
+					<p>Our vision is to enrichen and maximize our clients experience, providing the best leisure time.</p>
+					<p> Mission is to allow unforgettable moments with fair prices and quality.</p>
+				</fieldset>	
+			</div>
 			
-			
-			
-						
 			<form id="contact_us" action="mailto:patryck_brenner@outlook.com" method="post"> 
 			<!-- we can create an email for us and put here instead of mine -->
 			
 			 
 				<div id="contact_details">
-					
-						<table>
+						<table style="margin-left:auto;margin-right:auto;">
 							<legend> Start your trip now </legend>
 							<tr>
 								<td><label for="fullName"> Full Name: <label></td>
@@ -169,14 +156,12 @@
 								<textarea rows="15" cols="80" placeholder="Your comments"></textarea>
 								</td>
 							</tr>
-							
-							
+
 							
 						</table>	
 						
-						<div id="totalPrice"></div>
-						<input type="submit" id="submit" value="Submit" onclick="calculateTotal()" />
-					
+					<div id="totalPrice"></div>
+					<input type="submit" id="submit" value="Submit" onclick="calculateTotal()" />
 				</div> <!--end of order_details-->
 				
 				
@@ -193,12 +178,9 @@
 			<a href="https://www.instagram.com/"><img src="images/insta.jpg" alt = "Instagram" width="30" height="30"></a>
 			<a href="https://www.facebook.com/"><img src="images/facebook.png" alt = "Facebook" width="30" height="30"></a>
 			<p><b>Copyright &copy; 2020 - Make My Day Travel Agency - Mayor Street - IFSC - Dublin 1</b></p>	
-		</footer>		
-		
+		</footer>	
 		
 	</section>
-	
-
 </body>
 
 </html>
