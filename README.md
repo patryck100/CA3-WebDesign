@@ -1,15 +1,13 @@
 # CA3-WebDesign
-In the last years the tourist industry has changed considerably, travellers want to go off the beaten path. 
+This is a HTML/CSS/JAVASCRIPT group project created by @Christianne Peña, @Patryck Brenner and @Vanessa Lyra.
 
-Just visiting the popular sites is not enough, they want to have experiences, to create memories that will last a lifetime. 
+The requirement for this project was to create a Business Website of our choice, we picked Tourism.
 
-Under this notion is that our idea came to live. 
+Into the folder CA3 you will find our project divided into 5 more folders and our 4 html pages. 
+** Unfortunatlly GitHub does not accept videos, for this reason the folder "videos" which contains our videos could not be uploaded **
 
-Make my day was designed for every wanderlust, and by this we do not mean necessarily just people who is visiting Ireland. It is also created for the ones that 
-are living here and want to go a little further, to have a different day and enjoy the Emerald Island in a different way. 
 
-Talking about our website, our aim is to provide the customer a simple, friendly and efficient platform, where finding the information and services is really easy. 
-
-Make my day vision is to show people all the magnificent places and activities that Ireland has to offer. 
-
-Finally, our idea is to offer interesting places, well planned trips avoiding those unforeseen problems that are constantly present, traveling wise and above all, affordable. 
+In our PROJECT REPORT you will find:
+- The reason why we picked Tourism and the problems we faced;
+- Who is our primary persona (interviews we done with friends and another group of students);
+- How our site was designed (Wireframes and design patters per wireframe).
