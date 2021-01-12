@@ -12,5 +12,5 @@ In our PROJECT REPORT you will find:
 - Who is our primary persona (interviews we done with friends and another group of students);
 - How our site was designed (Wireframes and design patters per wireframe).
 
-The entire project can be checked and downloaded on the link bellow:
+The entire project can be checked and downloaded on the link:
 https://studentncirl-my.sharepoint.com/:f:/g/personal/x20131763_student_ncirl_ie/EvF0RQQD4VlKuBEeaQmGChQBPvBoxjynerXHnYnaN4Dd7A?e=KTY54y
