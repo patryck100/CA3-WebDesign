@@ -3,7 +3,7 @@ body{
 	text-align: justify;
 }
 
-h1{
+h2{
 	font-family: Trebuchet MS;
 	font-size: 70px;
 	font-weight: bold;
@@ -31,11 +31,11 @@ footer {
 	
 }
 
-.images{
+img{
 	display: flex;
 }
 
-.images:hover{
+img:hover{
 	left: 50px;
 }
 
@@ -50,7 +50,7 @@ footer {
 	padding-left: 50px;
 }
 
-#headervan{
+#header{
 	padding: 1px;
 	background-color: #00993395;
     width: 100%;
@@ -64,7 +64,7 @@ footer {
 	padding: 50px 0;
   }
 
-#navigvan {
+.topnav {
 	width: 100%;
 	float: left;
 	border-top: solid 2px #ffffff;
@@ -72,16 +72,16 @@ footer {
 	padding:  0 15px 0 15px;
 }
 
-#navigvan ul {
+.topnav ul {
 	list-style-type: none;
 }
 
-#navigvan li {
+.topnav li {
 	float: left; 
 		
 }
 
-#navigvan li a {
+.topnav li a {
 	display: block;
 	padding: 10px;
 	text-decoration: none;
@@ -90,7 +90,7 @@ footer {
 	border-right: 1px solid #ffffff;
 }
 
-#navigvan li a:hover { 
+.topnav li a:hover { 
 	color: black;
 }
 
