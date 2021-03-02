@@ -1,4 +1,4 @@
-# CA3-WebDesign
+# Make My Day Website
 This is a HTML/CSS/JAVASCRIPT group project created by @Christianne Peña, @Patryck Brenner and @Vanessa Lyra.
 
 The requirement for this project was to create a Business Website of our choice, we picked Tourism.
