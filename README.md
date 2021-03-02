@@ -1,10 +1,9 @@
 # Make My Day Website
-This is a HTML/CSS/JAVASCRIPT group project created by @Christianne Peña, @Patryck Brenner and @Vanessa Lyra.
 
-The requirement for this project was to create a Business Website of our choice, we picked Tourism.
+* This is a tourism website developed in group with only studies purposes. *
+The website is divided in 4 HTML pages. The home page contains an introduction to the content, "about us" information and a "contact us" form which has its functionalities validates within a JAVASCRIPT file, whereas each of the other 3 pages contains information of a kind of trip our clients could possible choose (Adventure, Historical or Game of Thrones tour). All the content was styled by a unique CSS style sheet and as a purpose of testing the group knowledge, we also created a CSS style for each of our individual pages. I was responsible for coding the Adventure.html page, the JavaScript file and the main CSS style which ended up being the final Style for our page. 
 
-Into the folder CA3 you will find our project divided into 5 more folders and our 4 html pages. 
-** Unfortunatlly GitHub does not accept videos, for this reason the folder "videos" which contains our videos could not be uploaded **
+** Unfortunatlly GitHub does not accept videos bigger than 100mb, for this reason the folder "videos" is missing a video for the "Adventure.html" webpage **
 
 
 In our PROJECT REPORT you will find:
