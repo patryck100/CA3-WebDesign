@@ -51,7 +51,12 @@
 		<div class= "gallery"> 
 			<video width="70%" height="40%" controls="controls"> <!-- https://www.w3schools.com/html/html5_video.asp*/ -->
 				<source src="video/newgrange.mp4" type="video/mp4"> 
-				Your browser does not support the video tag.
+				<source src="video/newgrange.ogg" type="video/ogg">
+				<source src="video/newgrange.webm" type="video/webm">
+				<source src="video/newgrange.mov" type="video/mov">
+				<!-- Multiple video formats are being included in order to be supported by a wider variety of browsers -->
+				<p> Sorry, your browser does not support the video element.</p> 
+				<!-- The text above is to be displayed to the user in case the video does not work -->
 			</video>
 		</div>
 	
